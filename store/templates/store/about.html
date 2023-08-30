@@ -1,0 +1,573 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fondex - Smart NFC Business Card</title>
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="Fondex - Smart NFC Business Card">
+    <meta name="author" content="p-themes">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static '{% static /fondex material/bg-logo' %}.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'assets/images/fondex material/bg-logo.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'assets/images/fondex material/bg-logo.png' %}">
+    <link rel="manifest" href="{% static 'assets/images/icons/site.htl'%}">
+    <link rel="mask-icon" href="{% static 'assets/images/icons/safari-pinned-tab.svg'%}" color="#666666">
+    <link rel="shortcut icon" href="{% static 'assets/images/fondex material/bg-logo.png'%}">
+    <meta name="apple-mobile-web-app-title" content="FondeX">
+    <meta name="application-name" content="FondeX">
+    <meta name="msapplication-TileColor" content="#cc9966">
+    <meta name="msapplication-config" content="{% static 'assets/images/icons/browserconfig.xml' %}">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="{% static 'assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css' %}">
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/owl-carousel/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/magnific-popup/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/plugins/jquery.countdown.css' %}">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/skins/skin-demo-4.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/demos/demo-4.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/demos/demo-2.css' %}">
+    
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-left">
+                       
+
+                        <div class="header-dropdown">
+                            <a href="#">
+                                90 days to love it | 100% Risk free
+                                
+                                </a>
+                            
+                        </div><!-- End .header-dropdown -->
+                    </div><!-- End .header-left -->
+
+                    <div class="header-right">
+                        <ul class="top-menu">
+                            <li>
+                                <a href="#"></a>
+                                <div class="social-icons social-icons-color justify-content-center">
+                                <ul>
+                                   
+                                    
+                                    <li><a href="https://www.linkedin.com/company/founders-community-in/" class="social-icon social-linkedin" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a></li>
+                                    <li><a href="http://www.instagram.com/fondex.in" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a></li>
+                                    <li><a href="mailto:info.fondex.in@gmail.com" class="social-icon social-envelop" title="Email" target="_blank"><i class="icon-envelope"></i></a></li>
+
+
+
+
+
+
+                                    
+
+                                    
+                                    <div class="col-md-4">
+                                        <div class="contact-box text-center">
+                                           
+            
+                                        </div><!-- End .contact-box -->
+                                    </div><!-- End .col-md-4 -->
+                                </ul>
+                                
+                            </li>
+                            
+                        </ul><!-- End .top-menu -->
+                    </div><!-- End .header-right -->
+                </div><!-- End .container -->
+            </div><!-- End .header-top -->
+
+            <div class="header-middle sticky-header">
+                <div class="container">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler">
+                            <span class="sr-only"></span>
+                            <i class="icon-bars"></i>
+                        </button>
+
+                        <a href="/" class="logo">
+                            <img src="{% static 'assets/images/fondex material/bg-logoo2.png'%}" alt="Molla Logo" width="105" height="25">
+                        </a>
+
+                        <nav class="main-nav">
+                            <ul class="menu sf-arrows">
+                                <li class="megamenu-container ">
+                                    <a href="/" class="">Home</a>
+
+                                 
+                                <li>
+                                    <a href="/shop.html" class="">Shop</a>
+
+                                    
+                                <li>
+                                    <a href="/about.html" class="">About Us</a>
+                                <li>
+                                    <a href="/contact.html" class="">Contact Us</a>
+
+                                    
+                             
+                            </ul><!-- End .menu -->
+                        </nav><!-- End .main-nav -->
+                    </div><!-- End .header-left -->
+
+                    <div class="header-right">
+                        <div class="header-search">
+                            <a href="#" class="search-toggle" role="button" title="Search"><i class="icon-search"></i></a>
+                            <form action="#" method="get">
+                                <div class="header-search-wrapper">
+                                    <label for="q" class="sr-only">Search</label>
+                                    <input type="search" class="form-control" name="q" id="q" placeholder="Search in..." required>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div><!-- End .header-search -->
+                       
+
+                       {% comment %}  <div class="dropdown cart-dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                                <i class="icon-shopping-cart"></i>
+                                <span class="cart-count">2</span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-cart-products">
+                                    <div class="product">
+                                        <div class="product-cart-details">
+                                            <h4 class="product-title">
+                                                <a href="/product.html">Beige knitted elastic runner shoes</a>
+                                            </h4>
+
+                                            <span class="cart-product-info">
+                                                <span class="cart-product-qty">1</span>
+                                                x ₹84.00
+                                            </span>
+                                        </div><!-- End .product-cart-details -->
+
+                                        <figure class="product-image-container">
+                                            <a href="/product.html" class="product-image">
+                                                <img src="{% static 'assets/images/products/cart/product-1.jpg'%}" alt="product">
+                                            </a>
+                                        </figure>
+                                        <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
+                                    </div><!-- End .product -->
+
+                                    <div class="product">
+                                        <div class="product-cart-details">
+                                            <h4 class="product-title">
+                                                <a href="/product.html">Blue utility pinafore denim dress</a>
+                                            </h4>
+
+                                            <span class="cart-product-info">
+                                                <span class="cart-product-qty">1</span>
+                                                x ₹76.00
+                                            </span>
+                                        </div><!-- End .product-cart-details -->
+
+                                        <figure class="product-image-container">
+                                            <a href="/product.html" class="product-image">
+                                                <img src="{% static 'assets/images/products/cart/product-2.jpg'%}" alt="product">
+                                            </a>
+                                        </figure>
+                                        <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
+                                    </div><!-- End .product -->
+                                </div><!-- End .cart-product -->
+
+                                <div class="dropdown-cart-total">
+                                    <span>Total</span>
+
+                                    <span class="cart-total-price">₹160.00</span>
+                                </div><!-- End .dropdown-cart-total -->
+
+                                <div class="dropdown-cart-action">
+                                    <a href="/cart.html" class="btn btn-primary">View Cart</a>
+                                    <a href="/checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></a>
+                                </div><!-- End .dropdown-cart-total -->
+                            </div><!-- End .dropdown-menu -->
+                        </div><!-- End .cart-dropdown -->
+                    </div><!-- End .header-right -->{% endcomment  %}
+                </div><!-- End .container -->
+            </div><!-- End .header-middle -->
+        </header><!-- End .header -->
+
+        <main class="main">
+        	<div class="page-header text-center" style="background-image: url({% static 'assets/images/page-header-bg.jpg' %})">
+        		<div class="container">
+        			<h1 class="page-title">About Us<span>Pages</span></h1>
+        		</div><!-- End .container -->
+        	</div><!-- End .page-header -->
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                       <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav><!-- End .breadcrumb-nav -->
+
+            <div class="page-content pb-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="about-text text-center mt-3">
+                                <h2 class="title text-center mb-2">Who We Are</h2><!-- End .title text-center mb-2 -->
+                                <p>At Fondex, we are devoted to fostering a thriving ecosystem of entrepreneurs and business enthusiasts. Through our range of visionary products and dynamic community, we empower individuals to connect, collaborate, and conquer the challenges of the business world. With innovation at the core, Fondex paves the way for a future where entrepreneurship knows no bounds. </p>
+                                <img src="{% static 'assets/images/about/about-2/signature.png' %}" alt="signature" class="mx-auto mb-5">
+
+                                <img src="{% static 'assets/images/fondex material/banner.jfif' %}" alt="image" class="mx-auto mb-6">
+                            </div><!-- End .about-text -->
+                        </div><!-- End .col-lg-10 offset-1 -->
+                    </div><!-- End .row -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="icon-box icon-box-sm text-center">
+                                <span class="icon-box-icon">
+                                    <i class="icon-puzzle-piece"></i>
+                                </span>
+                                <div class="icon-box-content">
+                                    <h3 class="icon-box-title">Vision</h3><!-- End .icon-box-title -->
+                                    <p>To create a global community of empowered entrepreneurs, united by shared ambitions and supported by unparalleled resources.</p>
+                                </div><!-- End .icon-box-content -->
+                            </div><!-- End .icon-box -->
+                        </div><!-- End .col-lg-4 col-sm-6 -->
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="icon-box icon-box-sm text-center">
+                                <span class="icon-box-icon">
+                                    <i class="icon-check"></i>
+                                </span>
+                                <div class="icon-box-content">
+                                    <h3 class="icon-box-title">Mission</h3><!-- End .icon-box-title -->
+                                    <p>To provide cutting-edge products and platforms that facilitate meaningful connections, mentorship, and growth opportunities for every member of the Fondex family.
+                                </div><!-- End .icon-box-content -->
+                            </div><!-- End .icon-box -->
+                        </div><!-- End .col-lg-4 col-sm-6 -->
+
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="icon-box icon-box-sm text-center">
+                                <span class="icon-box-icon">
+                                    <i class="icon-life-ring
+                                    "></i>
+                                </span>
+                                <div class="icon-box-content">
+                                    <h3 class="icon-box-title">
+                                        We Support</h3><!-- End .icon-box-title -->
+                                    <p>24/7 customer support is a model where customers can get their issues resolved anytime they need assistance. This is the support that is available 24 hours a day and 7 days a week.</p> 
+                                </div><!-- End .icon-box-content -->
+                            </div><!-- End .icon-box -->
+                        </div><!-- End .col-lg-4 col-sm-6 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+
+                <div class="bg-light-2 pt-6 pb-7 mb-6">
+                    <div class="container">
+                        <h2 class="title text-center mb-4">Meet Our Team</h2><!-- End .title text-center mb-2 -->
+    
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="member member-2 text-center">
+                                    <figure class="member-media">
+                                        <img src="{% static 'assets/images/fondex material/team/kunal.jpg' %}" alt="member photo">
+    
+                                        <figcaption class="member-overlay">
+                                            <div class="social-icons social-icons-simple">
+                                                <a href="mailto:Kunalchavan.zenta@gmail.com" class="social-icon" title="Email" target="_blank"><i class="icon-envelope"></i></a>
+                                                <a href="https://www.linkedin.com/in/entrepreneur-kunalchavan" class="social-icon" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a>
+                                                <a href="http://www.instagram.com/entrepreneur.kunal/" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                                            </div><!-- End .soial-icons -->
+                                        </figcaption><!-- End .member-overlay -->
+                                    </figure><!-- End .member-media -->
+                                    <div class="member-content">
+                                        <h3 class="member-title">kunal Chavan <span>Founder</span></h3><!-- End .member-title -->
+                                    </div><!-- End .member-content -->
+                                </div><!-- End .member -->
+                            </div><!-- End .col-lg-3 -->
+    
+    
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="member member-2 text-center">
+                                    <figure class="member-media">
+                                        <img src="{% static 'assets/images/fondex material/team/Deepak Rai.jpg' %}" alt="member photo">
+    
+                                        <figcaption class="member-overlay">
+                                            <div class="social-icons social-icons-simple">
+                                                <a href="mailto:deepak@deadrowesports.com" class="social-icon" title="Email" target="_blank"><i class="icon-envelope"></i></a>
+                                                <a href="https://www.linkedin.com/in/deepak-kumar-rai-195312250" class="social-icon" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a>
+                                                <a href="https://instagram.com/ig.ceosahab/" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                                            </div><!-- End .soial-icons -->
+                                        </figcaption><!-- End .member-overlay -->
+                                    </figure><!-- End .member-media -->
+                                    <div class="member-content">
+                                        <h3 class="member-title"><span>Co-founder & CEO</span></h3><!-- End .member-title -->
+                                    </div><!-- End .member-content -->
+                                </div><!-- End .member -->
+                            </div><!-- End .col-lg-3 -->
+    
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="member member-2 text-center">
+                                    <figure class="member-media">
+                                        <img src="{% static 'assets/images/fondex material/team/Ayaan Gani.jpg'%}" alt="member photo">
+    
+                                        <figcaption class="member-overlay">
+                                            <div class="social-icons social-icons-simple">
+                                                <a href="mailto:ayaanpreneur@gmail.com" class="social-icon" title="Email" target="_blank"><i class="icon-envelope"></i></a>
+                                                <a href="https://www.linkedin.com/in/ayaan-gani-a87b78262" class="social-icon" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a>
+                                                <a href="https://instagram.com/its.ayaanpreneur?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D/" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                                            </div><!-- End .soial-icons -->
+                                        </figcaption><!-- End .member-overlay -->
+                                    </figure><!-- End .member-media -->
+                                    <div class="member-content">
+                                        <h3 class="member-title">Ayaan Gani<span>Co-founder & CMO</span></h3><!-- End .member-title -->
+                                    </div><!-- End .member-content -->
+                                </div><!-- End .member -->
+                            </div><!-- End .col-lg-3 -->
+    
+                           
+    
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="member member-2 text-center">
+                                    <figure class="member-media">
+                                        <img src="{% static 'assets/images/fondex material/team/Vighnesh Alhat.jpg'%}" alt="member photo">
+    
+                                        <figcaption class="member-overlay">
+                                            <div class="social-icons social-icons-simple">
+                                                <a href="mailto:vighnesh.alhat2122@gmail.com" class="social-icon" title="Email" target="_blank"><i class="icon-envelope"></i></a>
+                                                <a href="https://www.linkedin.com/in/vighnesh-alhat-534353272" class="social-icon" title="linkedin" target="_blank"><i class="icon-linkedin-in"></i></a>
+                                                <a href="https://instagram.com/vighnesh_alhat13?igshid=MzRlODBiNWFlZA==" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                                            </div><!-- End .soial-icons -->
+                                        </figcaption><!-- End .member-overlay -->
+                                    </figure><!-- End .member-media -->
+                                    <div class="member-content">
+                                        <h3 class="member-title">Vighnesh Alhat<span> Co-founder & COO</span></h3><!-- End .member-title -->
+                                    </div><!-- End .member-content -->
+                                </div><!-- End .member -->
+                            </div><!-- End .col-lg-3 -->
+    
+                         
+    
+                            
+                        </div><!-- End .row -->
+    
+                        <div class="text-center mt-3">
+                            <a href="/contact.html" class="btn btn-sm btn-minwidth-lg btn-outline-primary-2">
+                                <span>LETS START WORK</span>
+                                <i class="icon-long-arrow-right"></i>
+                            </a>
+                        </div><!-- End .text-center -->
+                    </div><!-- End .container -->
+                </div><!-- End .bg-light-2 pt-6 pb-6 -->
+
+              
+            </div><!-- End .page-content -->
+
+        </main><!-- End .main -->
+
+
+
+        <footer class="footer footer-2">
+            <div class="cta bg-image bg-dark pt-4 pb-5 mb-0" style="background-image: url({% static 'assets/images/demos/demo-4/bg-5.jpg' %});">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-10 col-md-8 col-lg-6">
+                            <div class="cta-heading text-center">
+                                <h3 class="cta-title text-white">Get The Latest Deals</h3><!-- End .cta-title -->
+                                <p class="cta-desc text-white">and receive <span class="font-weight-normal">₹99 coupon</span> for first shopping</p><!-- End .cta-desc -->
+                            </div><!-- End .text-center -->
+                        
+                            <form action="#">
+                                <div class="input-group input-group-round">
+                                    <input type="email" class="form-control form-control-white" placeholder="Enter your Email Address" aria-label="Email Adress" required>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="submit"><span>Subscribe</span><i class="icon-long-arrow-right"></i></button>
+                                    </div><!-- .End .input-group-append -->
+                                </div><!-- .End .input-group -->
+                            </form>
+                        </div><!-- End .col-sm-10 col-md-8 col-lg-6 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </div><!-- End .cta -->
+            <div class="footer-middle border-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="widget widget-about">
+                                <img src="{% static 'assets/images/fondex material/bg-logoo2.png' %}" class="footer-logo" alt="Footer Logo" width="105" height="25">
+                                <p>Welcome to the Founder's Community company Website! We are a vibrant and dynamic community dedicated to empowering and connecting founders from various industries. 🤝💼
+                                </p>
+                                <div class="widget-about-info">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-4">
+                                            <span class="widget-about-title">Got Question? Call us 24/7</span>
+                                            <a href="tel:+91 97676 11297">+91 97676 11297</a>
+                                        </div><!-- End .col-sm-6 -->
+                                        <div class="col-sm-6 col-md-8">
+                                            <span class="widget-about-title">Payment Method</span>
+                                            <figure class="footer-payments">
+                                                <img src="{% static 'assets/images/payments.png' %}" alt="Payment methods" width="272" height="20">
+                                            </figure><!-- End .footer-payments -->
+                                        </div><!-- End .col-sm-6 -->
+                                    </div><!-- End .row -->
+                                </div><!-- End .widget-about-info -->
+                            </div><!-- End .widget about-widget -->
+                        </div><!-- End .col-sm-12 col-lg-3 -->
+    
+                        <div class="col-sm-4 col-lg-2">
+                            <div class="widget">
+                                <h4 class="widget-title">FondeX Cards</h4><!-- End .widget-title -->
+    
+                                <ul class="widget-list">
+                                    <li><a href="/about.html">Entrepreneurs Card</a></li>
+                                    <li><a href="/about.html">NFC Entrepreneurs Card
+                                    </a></li>
+                                    <li><a href="/contact.html">Creators Card (NFC)</a></li>
+                                    <li><a href="/shop.html">Business Card (NFC)</a></li>
+                                    <li><a href="/shop.html">Gamers Card</a></li>
+                                    <li><a href="/shop.html">Fondex Card</a></li>
+                                </ul><!-- End .widget-list -->
+                            </div><!-- End .widget -->
+                        </div><!-- End .col-sm-4 col-lg-3 -->
+    
+                        <div class="col-sm-4 col-lg-2">
+                            <div class="widget">
+                                <h4 class="widget-title">Customer Service</h4><!-- End .widget-title -->
+    
+                                <ul class="widget-list">
+                                    <li><a href="/shop.html">Shopping</a></li>
+                                    <li><a href="/contact.html">Contact Us</a></li>
+                                    <li><a href="/about.html">About Us</a></li>
+                                    <li><a href="/terms-conditions.html">Terms and conditions</a></li>
+                                    <li><a href="/Privacy-Policy.html">Privacy Policy</a></li>
+                                    <li><a href="#faq">Any Query</a></li>
+                                </ul><!-- End .widget-list -->
+                            </div><!-- End .widget -->
+                        </div><!-- End .col-sm-4 col-lg-3 -->
+    
+                        <div class="col-sm-4 col-lg-2">
+                            <div class="widget">
+                                <h4 class="widget-title">My Account</h4><!-- End .widget-title -->
+    
+                                <ul class="widget-list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/cart.html">View Cart</a></li>
+                                    <li><a href="/shop.html">Shop</a></li>
+                                    <li><a href="/cart.html">CheckOut</a></li>
+                                    <li><a href="/Privacy-Policy.html">Help</a></li>
+                                </ul><!-- End .widget-list -->
+                            </div><!-- End .widget -->
+                        </div><!-- End .col-sm-64 col-lg-3 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+            </div><!-- End .footer-middle -->
+    
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="footer-copyright">Copyright © 2023 Fondex Community. 
+                    <ul class="footer-menu">
+                        <li>Developed  By - <a href="https://WebWrite.tech" target="_blank"><strong class="webwrite">WebWrite Technologies</strong></a></li>
+                        
+                    </ul><!-- End .footer-menu -->
+    
+                    <div class="social-icons social-icons-color">
+                        <span class="social-label">Social Media</span>
+                         <a href="http://www.instagram.com/fondex.in" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                         <a href="https://www.linkedin.com/company/founders-community-in/" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-linkedin"></i></a>
+                         <a href="mailto:info.fondex.in@gmail.com" class="social-icon social-envelope" title="Instagram" target="_blank"><i class="icon-envelope"></i></a>
+                    </div><!-- End .soial-icons -->
+                </div><!-- End .container -->
+            </div><!-- End .footer-bottom -->
+        </footer><!-- End .footer -->
+    </div><!-- End .page-wrapper -->
+    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+    
+        <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+    
+        <!-- Mobile Menu -->
+        <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+    
+        <div class="mobile-menu-container mobile-menu-light">
+            <div class="mobile-menu-wrapper">
+                <span class="mobile-menu-close"><i class="icon-close"></i></span>
+                
+                <form action="#" method="get" class="mobile-search">
+                    <label for="mobile-search" class="sr-only">Search</label>
+                    <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Search in..." required>
+                    <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+                </form>
+    
+                <ul class="nav nav-pills-mobile nav-border-anim" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab" role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="mobile-cats-link" data-toggle="tab" href="#mobile-cats-tab" role="tab" aria-controls="mobile-cats-tab" aria-selected="false">Categories</a>
+                    </li>
+                </ul>
+    
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel" aria-labelledby="mobile-menu-link">
+                        <nav class="mobile-nav">
+                            <ul class="mobile-menu">
+                                <li class="active">
+                                    <a href="/">Home</a>
+                                    <a href="/shop.html">Shop</a>
+                                    <a href="/about.html">About Us</a>
+                                    <a href="/contact.html">Contact Us</a>
+    
+                                   
+                                </li>
+                                
+                        </nav><!-- End .mobile-nav -->
+                    </div><!-- .End .tab-pane -->
+                    <div class="tab-pane fade" id="mobile-cats-tab" role="tabpanel" aria-labelledby="mobile-cats-link">
+                        <nav class="mobile-cats-nav">
+                            <ul class="mobile-cats-menu">
+                                <li><a class="mobile-cats-lead" href="#"> Entrepreneurs Card</a></li>
+                                <li><a class="mobile-cats-lead" href="#"> Metallic NFC Enabled Entrepreneurs Card</a></li>
+                                <li><a class="mobile-cats-lead" href="#">Fondex Card </a></li>
+                                <li><a class="mobile-cats-lead" href="#"> Creators Card </a></li>
+                                <li><a class="mobile-cats-lead" href="#"> Business Card:  </a></li>
+                                <li><a class="mobile-cats-lead" href="#"> NFC Entrepreneurs Card</a></li>
+                                
+                            </ul><!-- End .mobile-cats-menu -->
+                        </nav><!-- End .mobile-cats-nav -->
+                    </div><!-- .End .tab-pane -->
+                </div><!-- End .tab-content -->
+    
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/company/founders-community-in/" class="social-icon" target="_blank" title="linkedin"><i class="icon-linkedin"></i></a>
+                    
+                    <a href="http://www.instagram.com/fondex.in" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+                  
+                </div><!-- End .social-icons -->
+            </div><!-- End .mobile-menu-wrapper -->
+        </div><!-- End .mobile-menu-container -->
+        <!-- Plugins JS File -->
+    <script src="{% static 'assets/js/jquery.min.js'%}"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.hoverIntent.min.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.waypoints.min.js'%}"></script>
+    <script src="{% static 'assets/js/superfish.min.js'%}"></script>
+    <script src="{% static 'assets/js/owl.carousel.min.js'%}"></script>
+    <script src="{% static 'assets/js/bootstrap-input-spinner.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.plugin.min.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.countdown.min.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.countTo.js'%}"></script>
+    <script src="{% static 'assets/js/jquery.countdown.min.js'%}"></script>
+
+    <!-- Main JS File -->
+    <script src="{% static 'assets/js/main.js'%}"></script>
+    <script src="{% static 'assets/js/demos/demo-4.js'%}"></script>
+    <script src="{% static 'assets/js/demos/demo-2.js'%}"></script>
+    </body>
+    </html>

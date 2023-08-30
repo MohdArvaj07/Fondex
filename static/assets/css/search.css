@@ -1,0 +1,17 @@
+.border_color{
+    border-color: black;
+}
+.row-ak{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#input-box-ak{
+    height: 33px;
+    width: 623px;
+}
+.billionaire{
+    height: 30px;
+    width: 50px;
+}
